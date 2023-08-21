@@ -34,11 +34,11 @@
 
         <div>
             <?php
-
-            echo '<span>' . $_SESSION["userData"]["fullname"] . '</span>'
+            echo '<span class"options">' . $_SESSION["userData"]["fullname"] . '</span>'
             ?>
         </div>
     </nav>
+
     <main>
 
         <?php

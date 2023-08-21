@@ -13,7 +13,6 @@ if (!isset($_SESSION['loggedin'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/personal.css">
     <link rel="stylesheet" href="../css/forms.css">
-
     <title>Change Info</title>
 </head>
 
@@ -43,7 +42,7 @@ if (!isset($_SESSION['loggedin'])) {
         <div>
             <?php
 
-            echo '<span>' . $_SESSION["userData"]["fullname"] . '</span>'
+            echo '<span class"options">' . $_SESSION["userData"]["fullname"] . '</span>'
             ?>
         </div>
     </nav>
